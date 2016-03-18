@@ -9,6 +9,14 @@ $brownish: #d0c793;
   color: $niceBlue;
 }
 
+.results{
+  display: none;
+
+}
+
+#repo_search{
+  display: none;
+}
 body{
   background-color: $brownish;
 }

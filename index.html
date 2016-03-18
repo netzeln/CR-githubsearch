@@ -17,15 +17,28 @@
       <form class="" id="search_form">
         <label for="name_search">Enter a GitHub Username: </label>
         <input type="text" id="name_search" name="name" value="">
-        <button type="button" id='do_search' class="btn btn-sm btn-info">Search</button>
+        <button type="button" id='user_search' class="btn btn-sm btn-primary">Search for User</button>
+        <button type="button" id='repo_search' class="btn btn-sm btn-info results">Search for Repos</button>
       </form>
     </div>
 
-    <div class="results">
-      <h3>Results</h3>
-      <ul id="results_list">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container profile">
+            <h3>User Info</h3>
+              <p id="user_profile"></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="container results">
+            <h3>Results</h3>
+            <ul id="results_list">
+            </ul>
+          </div>
+        </div>
+      </div>
 
-      </ul>
     </div>
   </body>
 </html>
