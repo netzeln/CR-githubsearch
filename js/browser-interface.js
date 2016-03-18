@@ -1,9 +1,9 @@
 var apiKey = require('./../.env').apiKey;
 var getRepos = require('./../js/gitHubSearch.js').getRepos;
-var getProfile = require('./../js/gitHubSearch.js').getProfile;
+var getProfile = require('./../js/gitHubUserSearch.js').getProfile;
 
 
-$(document).ready (function(event){
+$(document).ready (function(){
   $('#user_search').click(function(){
     var searchedName = $('input#name_search').val();
 
@@ -17,8 +17,6 @@ $(document).ready (function(event){
     getRepos(searchedName, apiKey);
 
   });
-
-
 
   event.preventDefault;
 });
