@@ -13,8 +13,8 @@ _User can search for a gitHub username and see a limited profile of that usernam
 * _Clone the Repository_
 * _in your terminal, run  "npm install"   to install the packages.json file_
 * _in your terminal, run  "bower install"   to install the bower.json file_
-* _get yourself a github API token. then, in your project folder create a .env file and add exports.apiKey = "whatever your API token is" so that you can make queries. _
-* _in your terminal run "gulp build" or "gulp build --production" and then run "gulp serve" _
+* _get yourself a github API token. then, in your project folder create a .env file and add exports.apiKey = "whatever your API token is" so that you can make queries._
+* _in your terminal run "gulp build" or "gulp build --production" and then run "gulp serve"_
 * _Search for a git hub username. NOTE: you must click on the buttons to use the page. Do not hit Enter._
 
 
