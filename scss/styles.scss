@@ -1,5 +1,14 @@
 $niceBlue: #41a5c2;
-
+$brownish: #d0c793;
 .jumbotron {
   background-color: $niceBlue;
+}
+
+.repo_name{
+  font-weight: bold;
+  color: $niceBlue;
+}
+
+body{
+  background-color: $brownish;
 }

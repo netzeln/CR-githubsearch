@@ -6,8 +6,8 @@ exports.getRepos = function(searchedName, key){
   console.log(response[0].name);
   $('#results_list').empty();
   for(var i = 0; i <= response.length; i++){
-
-    $('#results_list').append("<li>"+ response[i].name + "</li>");
+   var updated = moment.utc(response[i].updated_at).format("ddd MMM Do, YYYY");
+    $('#results_list').append("<li><span class='repo_name'>"+ response[i].name + "</span> <ul><li> Last Updated: " + updated +"</li><li>" + response[i].description + "</li></ul></li>");
   }
   })
   .fail(function(error){
