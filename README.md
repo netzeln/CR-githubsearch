@@ -1,41 +1,46 @@
-# _{Application Name}_
+# _Hub of Gets_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _GitHub API search, {2016-03-18}_
 
-#### By _**{List of contributors}**_
+#### By _**Nic Netzel (with special thanks to this week's pair coding partners)**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_User can search for a gitHub username and see a limited profile of that username. User can then search for a list of the first 100 Repositories for that user and see their titles, descriptions, and the last date they were worked on_
 
 ## Setup/Installation Requirements
 
 * _Clone the Repository_
-* _in your terminal, run  "composer install"   to get silex and twig_
-* _start your php sever in the "web" folder_
-* _x _
-* _x _
+* _in your terminal, run  "npm install"   to install the packages.json file_
+* _in your terminal, run  "bower install"   to install the bower.json file_
+* _get yourself a github API token. then, in your project folder create a .env file and add exports.apiKey = "whatever your API token is" so that you can make queries. _
+* _in your terminal run "gulp build" or "gulp build --production" and then run "gulp serve" _
+* _Search for a git hub username. NOTE: you must click on the buttons to use the page. Do not hit Enter._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+* _Only shows 100 repos on one page_
+* _Must click on buttons to access functions. no hitting "enter" to search"_
+
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Leave me a message on GitHub if you have questions or suggestions_
 
 ## Technologies Used
 
 _
-* _Composer_
-* _Twig_
-* _Silex_
-* _PHP_
+* _JavaScript_
+* _Node Package Manager_
+* _Bower Package Manager_
+* _CSS /Sass_
+* _GitHub API [https://developer.github.com/v3/]_
+
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT Licesnse*
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+(cc) 2016 **_{Nic Netzel}_**
